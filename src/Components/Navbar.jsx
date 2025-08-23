@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import companyLogo from "../assets/companylogo.png";
 import './Navbar.css';
 
 const Navbar = () => {
@@ -21,7 +22,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="nav-container">
         <div className="nav-logo">
-            <img src="\\wsl.localhost\Ubuntu\home\karia\my-app\frontend\Images\companylogo.png" alt="Matura logo" className='companylogo' />
+           <img src={companyLogo} alt="Matura logo" className='companylogo' />
           <a href="/">Matura</a>
         </div>
         
